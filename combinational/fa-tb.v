@@ -8,7 +8,7 @@ module fa_tb;
     initial begin
         $dumpfile("fa.vcd");
         $dumpvars(0, fa_tb);
-        $monitor($time, " %b + %b + %b = %b%b", a, b, cin, sum, cout);
+        $monitor($time, " %b + %b + %b = %b%b", a, b, cin, cout, sum);
         #5 a=0; b=0; cin=0; // 0+0+0
         #5 a=1; // 1+0+0
         #5 a=0; b=1; cin=1; // 0+1+1
