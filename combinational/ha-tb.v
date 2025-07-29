@@ -1,4 +1,4 @@
-// Testbench for all abstractions of half-adder
+// Testbench for all abstractions/implementations of half-adder
 
 module ha_tb;
     wire cout, sum;

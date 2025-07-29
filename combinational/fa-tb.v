@@ -1,3 +1,5 @@
+// Testbench for all abstractions/implementations of full-adder
+
 module fa_tb;
     reg a, b, cin;
     wire cout, sum;
