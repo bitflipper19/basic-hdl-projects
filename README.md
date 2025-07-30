@@ -1,6 +1,9 @@
 # basic-hdl-projects
 Learning about git, github and hardware modelling using verilog.
 
+### dependencies 
+```iverilog and gtkwave```
+
 ## To compile a code 
 ```iverilog -o {target_file_name} {file_name}.v {file_name}-tb.v```
 ## To view the terminal simulation
