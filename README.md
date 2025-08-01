@@ -10,4 +10,4 @@ Learning about git, github and hardware modelling using verilog.
 ```vvp {target_file_name}```
 ## To view the gtkWave simulation
 ```gtkwave {file_name}.vcd```
-### Note: All -tb.v files are testbench files, one testbench file for all implementations
+### Note: All -tb.v files are testbench files, one universal testbench file for all implementations of same type.
