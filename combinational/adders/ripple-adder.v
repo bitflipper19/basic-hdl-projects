@@ -13,7 +13,7 @@ module full_adder( // Gate level implementation of full adder
     or (cout, w2, w3, w4);
 endmodule
 
-module ripple_adder (
+module ripple_adder(
     output carry,
     output [3:0] result,
     input [3:0] a,
