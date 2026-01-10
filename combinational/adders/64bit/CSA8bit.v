@@ -13,6 +13,19 @@ module bitCSA8(
 
     assign sum[7:4] = (cout0 == 0) ? b0: b1; 
     assign cout = (cout0 == 0) ? coutH0: coutH1;
+
+    // always @(*) 
+    // begin
+    //     case(cout0)
+    //         1'b0:
+    //         sum[7:4] = b0;
+    //         cout = coutH0;
+    //         1'b1:
+    //         sum[7:4] = b1;
+    //         cout = coutH1;
+    //     endcase
+    // end
+
 endmodule
 
 module tb_CSA8bit;
