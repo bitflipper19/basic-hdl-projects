@@ -12,4 +12,3 @@ module datapath(
     cntr B (Bout, data_in, ldB, decB, clk);
     comp C0 (eqz, Bout);
 endmodule
-
