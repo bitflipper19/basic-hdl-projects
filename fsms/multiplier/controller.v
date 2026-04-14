@@ -19,12 +19,12 @@ module controller(
     end
 
     always @(*) begin
-        ldA=0; ldB=0; ldP=0; clrP=0; decB=0; done=0;
+        ldA=1'b0; ldB=1'b0; ldP=1'b0; clrP=1'b0; decB=1'b0; done=1'b0;
         if(!rst) case(state)
-            S1: ldA = 1;
-            S2: begin ldB=1; clrP=1; end
-            S3: begin ldP=1; decB=1; end
-            S4: done = 1;
+            S1: ldA=1'b1;
+            S2: begin ldB=1'b1; clrP=1'b1; end
+            S3: begin ldP=1'b1; decB=1'b1; end
+            S4: done = 1'b1;
         endcase
     end
 endmodule
