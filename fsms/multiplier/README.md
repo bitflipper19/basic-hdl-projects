@@ -7,6 +7,5 @@
 # Waveform
 ![Waveform](https://github.com/bitflipper19/basic-hdl-projects/blob/main/fsms/multiplier/waveform.png)
 
-# Datapath Circuit
-
-# Controller Circuit and State Diagram
+# Circuit [RTL]
+![Circuit](https://github.com/bitflipper19/basic-hdl-projects/blob/main/fsms/multiplier/mx.jpg)
